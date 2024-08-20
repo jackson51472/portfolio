@@ -19,18 +19,18 @@ import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
 const info = [
   {
     icon: <FaPhoneAlt />,
-    title: "Phone",
-    description: "(+40) 321 654 876",
+    title: "Telefone",
+    description: "(+55) 32 985208911",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "youremail@gmail.com",
+    description: "jacksonparesido@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
-    title: "Address",
-    description: "Code Corner, Tech Town 13579",
+    title: "Endereço",
+    description: "Brasil, Paiva-MG",
   },
 ];
 
