@@ -7,47 +7,47 @@ import {
   FaReact,
   FaFigma,
   FaNodeJs,
+  FaPython,
+  FaJava,
+  FaAngular,
+  FaObjectGroup,
 } from "react-icons/fa";
 
-import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
+import { SiTailwindcss, SiNextdotjs, SiDjango, SiSpringboot } from "react-icons/si";
 
 // about data
 const about = {
-  title: "About me",
+  title: "Sobre mim",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Sou um programador apaixonado com experiência em HTML, CSS, JavaScript e Python. Atuei como Monitor na Faculdade Metodista Granbery e estou cursando Sistema de Informação, com habilidades em Django, Ruby e Machine Learning. Proativo e dedicado, busca sempre novos desafios..",
   info: [
     {
-      fieldName: "Name",
-      fieldValue: "Luke Coleman",
+      fieldName: "Nome",
+      fieldValue: "Jackson Faria",
     },
     {
-      fieldName: "Phone",
-      fieldValue: "(+40) 321 654 678",
+      fieldName: "Telefone",
+      fieldValue: "(+55) 32 985108911",
     },
     {
-      fieldName: "Experience",
-      fieldValue: "12+ Years",
+      fieldName: "Experiência",
+      fieldValue: "2+ Anos",
     },
     {
-      fieldName: "Skype",
-      fieldValue: "luke.01",
-    },
-    {
-      fieldName: "Nationality",
-      fieldValue: "American",
+      fieldName: "Nacionalidade",
+      fieldValue: "Brasileiro",
     },
     {
       fieldName: "Email",
-      fieldValue: "luke.01@gmail.com",
+      fieldValue: "jacksonapparesido@gmail.com",
     },
     {
       fieldName: "Freelance",
-      fieldValue: "Available",
+      fieldValue: "Disponível",
     },
     {
-      fieldName: "Languages",
-      fieldValue: "English, Spanish",
+      fieldName: "Idiomas",
+      fieldValue: "Inglês, Português",
     },
   ],
 };
@@ -55,39 +55,14 @@ const about = {
 // experience data
 const experience = {
   icon: "/assets/resume/badge.svg",
-  title: "My experience",
+  title: "Experiência",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Tenho ampla experiência em desenvolvimento web e back-end, com habilidades sólidas em Python, Django, Spring Boot, e proficiência em HTML, CSS, JavaScript, Angular e Android.",
   items: [
     {
-      company: "Tech Solutions Inc.",
-      position: "Full Stack Developer",
-      duration: "2022 - Present",
-    },
-    {
-      company: "Web Design Studio",
-      position: "Front-End Developer Intern",
-      duration: "Summer 2021",
-    },
-    {
-      company: "E-commerce Startup",
-      position: "Freelance Web Developer",
-      duration: "2020 - 2021",
-    },
-    {
-      company: "Tech Academy",
-      position: "Teaching Assistant",
-      duration: "2019 - 2020",
-    },
-    {
-      company: "Digital Agency",
-      position: "UI/UX Designer",
-      duration: "2018 - 2019",
-    },
-    {
-      company: "Software Development Firm",
-      position: "Junior Developer",
-      duration: "2017 - 2018",
+      company: "FMG-Faculdade Metodista Granbery",
+      position: "Monitor de turma",
+      duration: "2023",
     },
   ],
 };
@@ -95,80 +70,76 @@ const experience = {
 // education data
 const education = {
   icon: "/assets/resume/cap.svg",
-  title: "My education",
+  title: "Minhas qualificações",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Atualmente, meu foco está em aprofundar meus conhecimentos em machine learning e ferramentas de back end. Estou explorando algoritmos avançados e técnicas de análise de dados, enquanto aprimoro minhas habilidades em frameworks como Django e Spring Boot. Essa combinação me permite criar aplicações eficientes e inteligentes. Estou sempre em busca de novos desafios para impulsionar meu crescimento profissional.",
   items: [
     {
-      institution: "Online Course Platform",
-      degree: "Full Stack Web Development Bootcamp",
-      duration: "2023",
+      institution: "Udemy",
+      degree: "Formação IA e Machine Learning",
+      duration: "25 Horas",
     },
     {
-      institution: "Codecademy",
-      degree: "Front-end Track",
-      duration: "2022",
+      institution: "DIO",
+      degree: "Formação Ruby Developer",
+      duration: "36 Horas",
     },
     {
-      institution: "Online Course",
-      degree: "Programming Course",
-      duration: "2020 - 2021",
+      institution: "DIO",
+      degree: "Formação Java Developer",
+      duration: "76 Horas",
     },
     {
-      institution: "Tech Institute",
-      degree: "Certified Web Developer",
-      duration: "2019",
+      institution: "DIO",
+      degree: "Formação Machine Learning Specialist",
+      duration: "96 Horas",
     },
     {
-      institution: "Design School",
-      degree: "Diploma in Graphic Design",
-      duration: "2016 - 2018",
+      institution: "FMG-Faculdade Metodista Granbery",
+      degree: "Graduação em Sistema de Informação",
+      duration: "2022-2025",
     },
-    {
-      institution: "Community College",
-      degree: "Associate Degree in Computer Science",
-      duration: "2014 - 2016",
-    },
+    
   ],
 };
 
 // skills data
 const skills = {
-  title: "My skills",
+  title: "Minhas skills",
   description:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates quibusdam, sunt explicabo inventore.",
+    "Tenho habilidades sólidas em tecnologias de back-end, incluindo Python, Django, e Spring Boot. Além disso, sou proficiente em HTML, CSS e JavaScript para desenvolvimento web e tenho experiência com Angular para front-end e desenvolvimento Android.",
   skillList: [
     {
       icon: <FaHtml5 />,
-      name: "html 5",
+      name: "Html",
     },
     {
       icon: <FaCss3 />,
-      name: "css 3",
+      name: "Css",
     },
     {
       icon: <FaJs />,
       name: "javascript",
     },
     {
-      icon: <FaReact />,
-      name: "react.js",
+      icon: <FaPython />,
+      name: "Pyhton",
     },
     {
-      icon: <SiNextdotjs />,
-      name: "next.js",
+      icon: <SiDjango />,
+      name: "Django",
     },
     {
-      icon: <SiTailwindcss />,
-      name: "tailwind.css",
+      icon: <SiSpringboot />,
+      name: "Springboot",
     },
     {
-      icon: <FaNodeJs />,
-      name: "node.js",
+      icon: <FaJava />,
+      name: "Java",
     },
     {
-      icon: <FaFigma />,
-      name: "figma",
+      icon: <FaAngular />,
+      name: "Angula",
     },
   ],
 };
@@ -201,10 +172,10 @@ const Resume = () => {
           className="flex flex-col xl:flex-row gap-[60px]"
         >
           <TabsList className="flex flex-col w-full max-w-[380px] mx-auto xl:mx-0 gap-6">
-            <TabsTrigger value="experience">Experience</TabsTrigger>
-            <TabsTrigger value="education">Education</TabsTrigger>
+            <TabsTrigger value="experience">Experiência</TabsTrigger>
+            <TabsTrigger value="education">Minhas qualificações</TabsTrigger>
             <TabsTrigger value="skills">Skills</TabsTrigger>
-            <TabsTrigger value="about">About me</TabsTrigger>
+            <TabsTrigger value="about">Sobre mim</TabsTrigger>
           </TabsList>
 
           {/* content */}
