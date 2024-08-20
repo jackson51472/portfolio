@@ -6,31 +6,31 @@ import Link from "next/link";
 const services = [
   {
     num: "01",
-    title: "Web Development",
+    title: "Desenvolvedor Back-end",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Tenho experiência em desenvolvimento back-end com Python, Django e Spring Boot, criando soluções robustas e escaláveis. Transformo requisitos complexos em sistemas eficientes e confiáveis, sempre buscando superar expectativas.",
+    href: "/contact",
   },
   {
     num: "02",
-    title: "UI/UX Design",
+    title: "Trainee",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Como trainee, ofereço uma sólida base em machine learning e desenvolvimento back-end com Python, Django e Spring Boot. Estou entusiasmado para aplicar e expandir meus conhecimentos, contribuindo com soluções inovadoras e uma abordagem proativa.",
+    href: "/contact",
   },
   {
     num: "03",
-    title: "Logo Design",
+    title: "Estagiário",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Como estagiário, ofereço uma sólida base em machine learning e desenvolvimento back-end com Python, Django e Spring Boot. Sou proativo, rápido em aprender e pronto para contribuir com soluções inovadoras e eficientes para a equipe.",
+    href: "/contact",
   },
   {
     num: "04",
-    title: "SEO",
+    title: "Freelancer",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque tenetur.",
-    href: "",
+      "Como freelancer, ofereço expertise em machine learning e desenvolvimento back-end com Python, Django e Spring Boot. Estou dedicado a fornecer soluções personalizadas e inovadoras que atendam às suas necessidades e superem suas expectativas.",
+    href: "/contact",
   },
 ];
 

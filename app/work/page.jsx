@@ -22,25 +22,25 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: "01",
-    category: "frontend",
-    title: "project 1",
+    category: "Full Stack",
+    title: "Mercado de vendas",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+      "Desenvolvi a estrutura completa de um projeto acadêmico utilizando Django.",
+    stack: [{ name: "Html" }, { name: "Css" }, { name: "Django" }, { name: "Python" }, { name: "PostgreSQL" }],
     image: "/assets/work/thumb1.png",
     live: "",
-    github: "",
+    github: "https://github.com/jackson51472/Mercado.git",
   },
   {
     num: "02",
-    category: "fullstack",
+    category: "Back end Java",
     title: "project 2",
     description:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate magnam modi.",
-    stack: [{ name: "Next.js" }, { name: "Tailwind.css" }, { name: "Node.js" }],
+      "Desenvolvi uma API em Java utilizando Spring Boot para um trabalho acadêmico.",
+    stack: [{ name: "Spring Boot" }, { name: "Java" }, { name: "PostgreSQL" }],
     image: "/assets/work/thumb2.png",
     live: "",
-    github: "",
+    github: "https://github.com/PedroABarros/SistemaGerenciamentoHotel_TrabalhoVictor.git",
   },
   {
     num: "03",

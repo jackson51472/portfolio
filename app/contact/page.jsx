@@ -14,11 +14,11 @@ import {
   SelectValue,
 } from "@/components/ui/select";
 
-import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt } from "react-icons/fa";
+import { FaPhoneAlt, FaEnvelope, FaMapMarkerAlt, FaWhatsapp } from "react-icons/fa";
 
 const info = [
   {
-    icon: <FaPhoneAlt />,
+    icon: <FaWhatsapp />,
     title: "Telefone",
     description: "(+55) 32 985208911",
   },
