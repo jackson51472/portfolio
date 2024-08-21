@@ -18,10 +18,13 @@ const Home = () => {
               Olá eu sou <br /> <span className="text-accent">Jackson</span>
             </h1>
             <p className="max-w-[500px] mb-9 text-white/80">
-            Sou Jackson, um desenvolvedor apaixonado com habilidades sólidas em back-end (Python, Django, Spring Boot) e experiência em HTML, CSS, JavaScript, Angular e Android. Atualmente, estou focado em machine learning e criação de soluções completas e eficientes. Entre em contato para discutirmos como posso contribuir para o seu projeto!
+            Sou Jackson, um desenvolvedor com habilidades sólidas em back-end (Python, Django, Spring Boot) e experiência em HTML, CSS, JavaScript, Angular e Android. Atualmente, estou focado em machine learning e criação de soluções completas e eficientes. Entre em contato para discutirmos como posso contribuir para o seu projeto!
             </p>
             {/* btn and socials */}
             <div className="flex flex-col xl:flex-row items-center gap-8">
+              <a href="https://docs.google.com/document/d/1uVcMov6odSME8Sfaxp-ar2UG59Eic8uc/edit?usp=drive_link&ouid=100316300871986629440&rtpof=true&sd=true"
+              target="_blank"
+              >
               <Button
                 variant="outline"
                 size="lg"
@@ -30,6 +33,7 @@ const Home = () => {
                 <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
+              </a>
               <div className="mb-8 xl:mb-0">
                 <Social
                   containerStyles="flex gap-6"

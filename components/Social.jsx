@@ -5,7 +5,7 @@ import { FaGithub, FaLinkedinIn, FaYoutube, FaTwitter, FaInstagram, FaWhatsapp }
 const socials = [
   { icon: <FaGithub />, path: "https://github.com/jackson51472" },
   { icon: <FaLinkedinIn />, path: "https://www.linkedin.com/in/jackson-faria-5bb362252/" },
-  { icon: <FaWhatsapp />, path: "" },
+  { icon: <FaWhatsapp />, path: "https://wa.me/5532985108911" },
   { icon: <FaInstagram />, path: "" },
 ];
 
